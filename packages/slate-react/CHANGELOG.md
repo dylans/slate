@@ -1,5 +1,18 @@
 # slate-react
 
+## 0.72.4
+
+### Patch Changes
+
+- [#4753](https://github.com/ianstormtaylor/slate/pull/4753) [`e9a46ad2`](https://github.com/ianstormtaylor/slate/commit/e9a46ad29e0376a45051c4a8100c5678784b785c) Thanks [@alessiogaldy](https://github.com/alessiogaldy)! - Fix "editor.insertText never gets called inside plugins on android"
+
+* [#4779](https://github.com/ianstormtaylor/slate/pull/4779) [`345b8fc9`](https://github.com/ianstormtaylor/slate/commit/345b8fc9e8f073674c006098bd843823309db2e2) Thanks [@alessiogaldy](https://github.com/alessiogaldy)! - Android editable updates
+
+  - Remove logic to delay handling of text insertion
+  - Call Transforms.setSelection before Editor.insertText to adjust position
+
+- [#4755](https://github.com/ianstormtaylor/slate/pull/4755) [`8daa77e9`](https://github.com/ianstormtaylor/slate/commit/8daa77e9fab6b222ad796b420b86f3ec88999a39) Thanks [@jhurwitz](https://github.com/jhurwitz)! - fix useFocused hook
+
 ## 0.72.2
 
 ### Patch Changes
