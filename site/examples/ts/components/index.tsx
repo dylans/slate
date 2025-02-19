@@ -35,8 +35,8 @@ export const Button = React.forwardRef(
               ? 'white'
               : '#aaa'
             : active
-            ? 'black'
-            : '#ccc'};
+              ? 'black'
+              : '#ccc'};
         `
       )}
     />
